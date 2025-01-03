@@ -5,22 +5,10 @@
 /*
 !/*.gitignore
 ##
-!*.qpf
-!*.qsf
-!*.qws
-!*.vhd.bak
-##
-!*.bdf
-##
-!*.ptf
-!*.bsf
-##
-!**/class.ptf
-##
-!*.tbd
-##
-!*.sof
-##
-## tbd
+*.qpf
+*.qsf
+*.qws
+*.bak
+*.bdf
+*.bsf
 
-!*.tcl
