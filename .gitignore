@@ -1,0 +1,26 @@
+##list taken from http://www.alterawiki.com/wiki/Version_Control (01.10.2015)
+
+######### Quartus source files
+
+/*
+!/*.gitignore
+##
+!*.qpf
+!*.qsf
+!*.qws
+!*.vhd.bak
+##
+!*.bdf
+##
+!*.ptf
+!*.bsf
+##
+!**/class.ptf
+##
+!*.tbd
+##
+!*.sof
+##
+## tbd
+
+!*.tcl
