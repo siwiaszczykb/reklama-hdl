@@ -10,7 +10,8 @@ ENTITY reklama IS
 		seg3 :  OUT  STD_LOGIC_VECTOR(6 DOWNTO 0);
 		seg4 :  OUT  STD_LOGIC_VECTOR(6 DOWNTO 0);
 		seg5 :  OUT  STD_LOGIC_VECTOR(6 DOWNTO 0);
-		seg6 :  OUT  STD_LOGIC_VECTOR(6 DOWNTO 0));
+		seg6 :  OUT  STD_LOGIC_VECTOR(6 DOWNTO 0)
+	);
 END reklama;
 
 ARCHITECTURE wyswietlanie OF reklama IS 
@@ -66,13 +67,12 @@ PORT MAP(clk => main_clk,
 b2v_inst1 : preskaler
 PORT MAP(clk => clk_in,
 		 clk1Hz => main_clk);
-
-seg1 <= NOT(seg_1);
-seg2 <= NOT(seg_2);
-seg3 <= NOT(seg_3);
-seg4 <= NOT(seg_4);
-seg5 <= NOT(seg_5);
-seg6 <= NOT(seg_6);
+		 seg1 <= NOT(seg_1);
+		 seg2 <= NOT(seg_2);
+		 seg3 <= NOT(seg_3);
+		 seg4 <= NOT(seg_4);
+		 seg5 <= NOT(seg_5);
+		 seg6 <= NOT(seg_6);
 
 msg1 : msg
 PORT MAP(A => licznikDoWiadomosci,
