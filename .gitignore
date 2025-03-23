@@ -1,12 +1,17 @@
-######### Quartus source files
+# Ignore everything by default
+*
 
-/*
 !/*.gitignore
-##
-*.qpf
-*.qsf
-*.qws
-*.bak
-*.bdf
-*.bsf
+!LICENSE
+!README.md
+
+# Do not ignore directories
+!/*/
+
+# Do not ignore .v 
+!*.v
+
+# Do not ignore .vhdl 
+!*.vhdl
+
 
